@@ -1,0 +1,11 @@
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\bin\Debug\netcoreapp2.2\CSVFILE.deps.json
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\bin\Debug\netcoreapp2.2\CSVFILE.runtimeconfig.json
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\bin\Debug\netcoreapp2.2\CSVFILE.runtimeconfig.dev.json
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\bin\Debug\netcoreapp2.2\CSVFILE.dll
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\bin\Debug\netcoreapp2.2\CSVFILE.pdb
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\obj\Debug\netcoreapp2.2\CSVFILE.csprojAssemblyReference.cache
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\obj\Debug\netcoreapp2.2\CSVFILE.csproj.CoreCompileInputs.cache
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\obj\Debug\netcoreapp2.2\CSVFILE.AssemblyInfoInputs.cache
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\obj\Debug\netcoreapp2.2\CSVFILE.AssemblyInfo.cs
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\obj\Debug\netcoreapp2.2\CSVFILE.dll
+C:\Users\Sajjad Electronics\source\repos\CSVFILE\CSVFILE\obj\Debug\netcoreapp2.2\CSVFILE.pdb
