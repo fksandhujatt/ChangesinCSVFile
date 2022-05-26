@@ -8,6 +8,9 @@ using NotVisualBasic.FileIO;
 
 namespace CSVFILE
 {
+    //this should be in services folder/ there is no need to have IServices folder, just services which has these classes and IServices... Also naming convention is important
+    //So it should be IReadCsvService
+    //another point you didnt read the code after making the changes, there is redundant code here
     public class ReadCSV: IReadCSV
     {
         //public static DataTable GetDataTabletFromCSVFile(string csv_file_path)
@@ -82,14 +85,15 @@ namespace CSVFILE
                     {
                         DataColumn datecolumn = new DataColumn(column);
                         datecolumn.AllowDBNull = true;
-                        csvData.Columns.Add(datecolumn);
+                        csvData.Columns.Add(datecolumn);//not used anymore shouldn't be here
                     }
-
+                    //why all this commented code here
                     //InsertDatatoDB InsertDatatoDB = new InsertDatatoDB();
                     
 
                     while (!csvReader.EndOfData)
                     {
+                    // you need to make sure you understand if there is a need for data validation here before parsing it
                         string[] fieldData = csvReader.ReadFields();
                         Stock Stock = new Stock();
                         
@@ -110,7 +114,7 @@ namespace CSVFILE
 
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                Console.WriteLine(ex); // you need to make sure you understand the difference between exception throwing and carrying on after exception 
             }
 
             return Stocks;
