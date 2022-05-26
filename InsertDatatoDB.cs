@@ -16,12 +16,12 @@ namespace CSVFILE
                     db.AddRange(Stock);
                     db.SaveChanges();
                 }
-                    
-               
+                    //////
+               ////////why all these empty sapce in all your files
             }
             catch (Exception)
             {
-
+//throwing exception like that has no purpose, you need to understand what you are trying to achieve here
                 throw;
             }
         }

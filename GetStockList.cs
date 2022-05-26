@@ -1,4 +1,4 @@
-﻿using CSVFILE.IServices;
+using CSVFILE.IServices;
 using CSVFILE.Models;
 using System;
 using System.Collections.Generic;
@@ -22,7 +22,7 @@ namespace CSVFILE
                     
                 }
             }
-            catch (Exception)
+            catch (Exception)//why there is even need for a try catch block here, if db fails, that's a problem whole application should fail, this catch throw does nothing at all
             {
                 throw;
             }
